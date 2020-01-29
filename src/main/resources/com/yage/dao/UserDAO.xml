@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mapper namespace="com.yage.dao.UserDAO">
+    <select id="findAll" resultType="com.yage.domain.User">
+          select * from user;
+    </select>
+</mapper>
